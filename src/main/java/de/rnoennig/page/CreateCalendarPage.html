@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<wicket:extend>
+			<h3>Create Calendar</h3>
+			<button wicket:id="toogleEventVisibilityButton">Toggle event visbility</button>
+			<form wicket:id="mapForm">
+				<div wicket:id="mapPicker"></div>
+				<div wicket:id="radiusRadioGroup">
+					<span wicket:id="radiusRadioChoice">
+					</span>
+				</div>
+				<input type="submit" wicket:id="submitCalendar" value="save" />
+			</form>
+		</wicket:extend>
+	</body>
+</html>

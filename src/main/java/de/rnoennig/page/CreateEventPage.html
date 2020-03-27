@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<wicket:extend>
+			<h3>Add a new event</h3>
+			<form wicket:id="form">
+				<input type="text" wicket:id="eventName" />
+				<div wicket:id="eventLocation"></div>
+				<input type="submit" wicket:id="addEventButton" value="Add event" />
+			</form>
+		</wicket:extend>
+	</body>
+</html>

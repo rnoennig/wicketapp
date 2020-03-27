@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Apache Wicket Example</title>
+		<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Stylesheet" />
+	</head>
+	<body>
+		<div id="hd">
+			<div id="logo">
+				<img src="logo.png" width="50px" height="50px" alt="Wicket Logo" />
+				<h1>Apache Wicket Example</h1>
+			</div>
+		</div>
+		<div id="sidebar">
+			<h1>Navigation</h1>
+			<wicket:link>
+				<ul>
+					<li><a class="navlink" href="HomePage.html">Home</a><br/></li>
+					<li><a class="navlink" href="EventMapPage.html">Event map</a></li>
+					<li><a class="navlink" href="CreateEventPage.html">Create event</a></li>
+					<li><a class="navlink" href="CreateCalendarPage.html">Create calendar</a></li>
+					<li><a class="navlink" href="ApproveEventPage.html">Approve events</a></li>
+				</ul>
+			</wicket:link>
+		</div>
+		<div id="bd">
+			<wicket:child/>
+		</div>
+		<div id="ft">
+		</div>
+	</body>
+</html>

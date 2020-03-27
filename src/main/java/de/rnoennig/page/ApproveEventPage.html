@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<wicket:extend>
+			<h3>Pending event requests</h3>
+			<div wicket:id="events" style="display: table-row;">
+				<div style="display: table-cell;"><b>Full name: </b></div>
+				<div wicket:id="name" style="display: table-cell;"></div>
+				<button wicket:id="approveEventButton">Approve</button>
+				<button wicket:id="rejectEventButton">Reject</button>
+			</div>
+		</wicket:extend>
+	</body>
+</html>
