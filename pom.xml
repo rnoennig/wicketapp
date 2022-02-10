@@ -42,7 +42,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <wtp.version>none</wtp.version>
         <org.springframework.version>5.2.3.RELEASE</org.springframework.version>
-        <hibernate.version>5.4.10.Final</hibernate.version>
+        <hibernate.version>5.4.24.Final</hibernate.version>
 
     </properties>
     <dependencies>
